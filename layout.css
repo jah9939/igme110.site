@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+
+header, footer, article, aside
+{
+    border: 1px solid black;
+}
+
+html {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+}
+
+header {
+    
+    text-align: center;
+   
+}
+
+body{
+    font-family: 'Lobster Two', cursive;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+#container {
+    width: 700px;
+    
+    margin: 0 auto;
+    background-color:floralwhite;
+    padding: 1em;
+}
+
+#portrait_img {
+    width: 135px;
+    border: 2px solid black;
+    
+}
+aside {
+    float: left;
+    width: 37%;
+    padding: 1em 1em 0em 1em;
+    height: 300px;
+    margin-bottom: 1em;
+}
+article {
+    float: right;
+    width: 52%;
+    height: 300px;
+    padding: 1em 1em 0em 1em;
+    margin-bottom: 1em;
+    
+}
+footer {
+    text-align: center;
+    
